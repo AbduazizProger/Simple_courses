@@ -1,0 +1,5 @@
+ Question:What do percentiles describe in statistics?
+ VariantA:The mean value of a dataset.
+ VariantB:The value below which a given percentage of data falls.
+ VariantC:The maximum value in a dataset.
+ VariantD:The mode of a dataset.

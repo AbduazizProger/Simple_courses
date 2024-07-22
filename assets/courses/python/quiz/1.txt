@@ -1,0 +1,5 @@
+    Question: Insert the missing part of the code below to output "Hello World". Code: ____("Hello World")
+    VariantA: print
+    VariantB: PRINT
+    VariantC: Print
+    VariantD: All options are incorrect

@@ -1,0 +1,5 @@
+ Question:To create an array with 100,000 random numbers and display them using a histogram with 100 bars, what method should you use?
+ VariantA:numpy.random.uniform(0.0, 5.0, 100000)
+ VariantB:numpy.random.random(100000)
+ VariantC:numpy.random.choice(100000)
+ VariantD:numpy.random.normal(0.0, 5.0, 100)

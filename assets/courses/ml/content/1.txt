@@ -1,0 +1,35 @@
+ Title:Mean, Median, and Mode
+Text:What can we learn from looking at a group of numbers? In Machine Learning (and in mathematics) there are often three values that interests us:
+ Text:  Mean - The average value
+ Text:  Median - The mid point value
+ Text:  Mode - The most common value
+ Text:Example: We have registered the speed of 13 cars:
+ Code:speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+ Text:What is the average, the middle, or the most common speed value?
+ Bold:Mean
+ Text:The mean value is the average value. To calculate the mean, find the sum of all values, and divide the sum by the number of values:
+ Code:(99+86+87+88+111+86+103+87+94+78+77+85+86) / 13 = 89.77
+ Text:Use the NumPy mean() method to find the average speed:
+ Code:import numpy
+ Code:speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+ Code:x = numpy.mean(speed)
+ Code:print(x)
+ Bold:Median
+ Text:The median value is the value in the middle, after you have sorted all the values:
+ Like-code:77, 78, 85, 86, 86, 86, 87, 87, 88, 94, 99, 103, 111
+ Text:It is important that the numbers are sorted before you can find the median.
+ Text:Use the NumPy median() method to find the middle value:
+ Code:import numpy
+ Code:speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+ Code:x = numpy.median(speed)
+ Code:print(x)
+ Bold:Mode
+ Text:The Mode value is the value that appears the most number of times:
+ Like-code:99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86 = 86
+ Text:Use the SciPy mode() method to find the number that appears the most:
+ Code:from scipy import stats
+ Code:speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+ Code:x = stats.mode(speed)
+ Code:print(x)
+ Bold:Chapter Summary
+ Text:The Mean, Median, and Mode are techniques that are often used in Machine Learning, so it is important to understand the concept behind them.

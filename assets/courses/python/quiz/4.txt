@@ -1,0 +1,5 @@
+Question: Insert the correct syntax to convert x into a floating point number.      Code: x = 5      Code: x = ______(x)
+VariantA: float
+VariantB: String
+VariantC: Int
+VariantD: All options are incorrect

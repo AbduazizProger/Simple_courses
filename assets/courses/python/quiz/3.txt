@@ -1,0 +1,5 @@
+Question: The following code example would print the data type of x, what data type would that be?        Code: x = "Hello"       Code: print(type(x))
+VariantA: String
+VariantB: Int
+VariantC: Array
+VariantD: All options are incorrect

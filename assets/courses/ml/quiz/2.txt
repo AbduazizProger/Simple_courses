@@ -1,0 +1,5 @@
+ Question:What does a low standard deviation indicate about the values in a dataset?
+ VariantA:Values are spread out over a wider range.
+ VariantB:Most values are close to the mean.
+ VariantC:The dataset is small.
+ VariantD:Values are negative.

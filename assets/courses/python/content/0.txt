@@ -1,0 +1,31 @@
+Title:Python Introduction
+Bold:What is Python ?
+Text:
+Text:Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+Text:It is used for:
+Text:	* web development 
+Text:	* software development
+Text:	* mathematics 
+Text:	* system scripting
+Text:
+Bold: What can Python do?
+Text:
+Text:	* Python can be used on a server to create web applications.
+Text:	* Python can be used alongside software to create workflows.
+Text:	* Python can connect to database systems. It can also read and modify files.
+Text:	* Python can be used to handle big data and perform complex mathematics.
+Text:	* Python can be used for rapid prototyping, or for production-ready software development.
+Text:
+Bold: Why Python?
+Text: 
+Text:	* Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+Text:	* Python has a simple syntax similar to the English language.
+Text:	* Python has syntax that allows developers to write programs with fewer lines than some other Text:	* programming languages.
+Text:	* Python runs on an interpreter system, meaning that code can be executed as soon as it is Text:	* written. This means that prototyping can be very quick.
+Text:	* Python can be treated in a procedural way, an object-oriented way or a functional way.
+Text:
+Bold: Python Syntax compared to other programming languages
+Text:
+Text:	* Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+Text:	* Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+Text:	* Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.

@@ -1,0 +1,53 @@
+Title:Python Getting Started
+Bold: Python Install 
+Text: Many PCs and Macs will have python already installed.
+Text: To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):
+Code: C:\Users\Your Name>python --version
+Text: To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:
+Code: python --version
+Text: If you find that you do not have Python installed on your computer, then you can download it for free from the following website: https://www.python.org/
+Bold: Python Quickstart
+Text: Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+Text: The way to run a python file is like this on the command line:
+Code: C:\Users\Your Name>python helloworld.py
+Text: Where "helloworld.py" is the name of your python file.
+Text: Let's write our first Python file, called helloworld.py, which can be done in any text editor.
+Code: print("Hello, World!")
+Code: >>> Hello, World!
+Bold: Python Variables
+Text: In Python, variables are created when you assign a value to it:
+Text: Example
+Text: Variables in Pyton: 
+Code: x = 5
+Code: y = "Hello, World!"
+Text: Python has no command for declaring a variable.
+Text: You will learn more about	variables in the Python Variables chapter.
+Bold: Comments 
+Text: Comments can be used to explain Python code.
+Text: Comments can be used to make the code more readable.
+Text: Comments can be used to prevent execution when testing code.
+Bold: Creating a Comment
+Text: Comments starts with a -> # , and Python will ignore them: 
+Text: Example
+Code: #This is comment.
+Code: print("Hello, World!")
+Text: Comments can be placed at the end of a line, and Python will ignore the rest of the line:
+Text: Example
+Code: print("Hello, World!") #This is a comment
+Bold: Multiline Comments
+Text: Python does not really have a syntax for multiline comments.
+Text: To add a multiline comment you could insert a # for each line:
+Text: Example
+Code: #This is a comment
+Code: #written in
+Code: #more than just one line
+Code: print("Hello, World!")
+Text: Or, not quite as intended, you can use a multiline string.
+Text: Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
+Text: Example
+Code: """
+Code: This is a comment
+Code: written in
+Code: more than just one line
+Code: """
+Code: print("Hello, World!")

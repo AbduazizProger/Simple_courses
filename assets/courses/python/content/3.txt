@@ -1,0 +1,22 @@
+Title: Python Data Types
+Bold: Built-in Data Types
+Text: In programming, data type is an important concept.
+Text: Variables can store data of different types, and different types can do different things.
+Text: Python has the following data types built-in by default, in these categories:
+Text: Text Type:	str
+Text: Numeric Types:	int, float, complex
+Text: Sequence Types:	list, tuple, range
+Text: Mapping Type:	dict
+Text: Set Types:	set, frozenset
+Text: Boolean Type:	bool
+Text: Binary Types:	bytes, bytearray, memoryview
+Text: None Type:	NoneType
+Bold: Getting the Data Type
+Text: You can get the data type of any object by using the type() function:
+Text: Example
+Text: Print the data type of the variable x: 
+Code: x = 5
+Code: print(type(x))
+Output: Int
+Bold: Setting the Data Type
+Text: In Python, the data type is set when you assign a value to a variable.

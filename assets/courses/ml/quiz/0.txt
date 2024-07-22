@@ -1,0 +1,5 @@
+ Question:What is machine learning?
+ VariantA:Teaching computers to learn from data and statistics
+ VariantB:Teaching computers to cook
+ VariantC:Teaching computers to sing
+ VariantD:There is no thing like this

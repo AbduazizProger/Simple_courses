@@ -1,0 +1,5 @@
+Question: Create a variable named carname and assign the value Volvo to it.
+VariantA: x = "Volvo"
+VariantB: y = volvo"
+VariantC: 2x = "Volvo"
+VariantD: All options are incorrect

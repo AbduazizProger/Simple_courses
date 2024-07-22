@@ -1,0 +1,5 @@
+    Question: Who is person who invented Python?
+    VariantA: Guido van Rossum
+    VariantB: Ilhomov Abduaziz
+    VariantC: Mark Zuckerberg
+    VariantD: All options are incorrect

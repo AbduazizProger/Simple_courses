@@ -1,0 +1,5 @@
+ Question:What NumPy method is used to calculate the median speed in the provided Python code snippet?
+ VariantA:numpy.median()
+ VariantB:numpy.mean()
+ VariantC:numpy.mode()
+ VariantD:numpy.average()

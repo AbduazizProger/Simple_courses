@@ -1,0 +1,101 @@
+Title: Python Numbers
+Bold: Python Numbers
+Text: There are three numeric types in Python: 
+Text:	* int
+Text:	* float
+Text: 	* complex
+Text: Variables of numeric types are created when you assign a value to them:
+Text: Example
+Code: x = 1    # int
+Code: y = 2.8  # float
+Code: z = 1j   # complex
+Text: 
+Text: To verify the type of any object in Python, use the type() function:
+Text: Example
+Code: print(type(x))
+Code: print(type(y))
+Code: print(type(z))
+Text:
+Bold: Int
+Text: Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+Text: Example
+Code: x = 1
+Code: y = 35656222554887711
+Code: z = -3255522
+Code:
+Code: print(type(x))
+Code: print(type(y))
+Code: print(type(z))
+Code: <class 'int'>
+Code: <class 'int'>
+Code: <class 'int'>
+Text:
+Bold: Float
+Text: Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+Text: Example
+Code: x = 1.10
+Code: y = 1.0
+Code: z = -35.59
+Code: 
+Code: print(type(x))
+Code: print(type(y))
+Code: print(type(z))
+Code: <class 'float'>
+Code: <class 'float'>
+Code: <class 'float'>
+Text: Float can also be scientific numbers with an "e" to indicate the power of 10.
+Text: Example
+Code: x = 35e3
+Code: y = 12E4
+Code: z = -87.7e100
+Code:
+Code: print(type(x))
+Code: print(type(y))
+Code: print(type(z))
+Code: <class 'float'>
+Code: <class 'float'>
+Code: <class 'float'>
+Text:
+Bold:Complex
+Text: Complex numbers are written with a "j" as the imaginary part:
+Text: Example
+Code: x = 3+5j
+Code: y = 5j
+Code: z = -5j
+Code:
+Code: print(type(x))
+Code: print(type(y))
+Code: print(type(z))
+Code: <class 'complex'>
+Code: <class 'complex'>
+Code: <class 'complex'>
+Text:
+Bold: Type Conversion
+Text: You can convert from one type to another with the int(), float(), and complex() methods:
+Text: Example
+Code: x = 1    # int
+Code: y = 2.8  # float
+Code: z = 1j   # complex
+Code: 
+Code: #convert from int to float:
+Code: a = float(x)
+Code: 
+Code: #convert from float to int:
+Code: b = int(y)
+Code: 
+Code: #convert from int to complex:
+Code: c = complex(x)
+Code: 
+Code: print(a)
+Code: print(b)
+Code: print(c)
+Code: 
+Code: print(type(a))
+Code: print(type(b))
+Code: print(type(c))
+Code: 1.0
+Code: 2
+Code: (1+0j)
+Code: <class 'float'>
+Code: <class 'int'>
+Code: <class 'complex'>
